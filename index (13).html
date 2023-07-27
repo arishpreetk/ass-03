@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Order Your Smoothie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1>Smoothie Order Form</h1>
+
+    <!-- Smoothie Order Form -->
+    <form id="smoothieForm">
+        <!-- Flavor selection -->
+        <label for="flavor">Choose a flavor:</label>
+        <select id="flavor" name="flavor">
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+            <option value="blueberry">Blueberry</option>
+        </select>
+
+        <!-- Milk base selection -->
+        <label for="milk">Choose a milk base:</label>
+        <select id="milk" name="milk">
+            <option value="milk">Milk</option>
+            <option value="almond_milk">Almond Milk</option>
+            <option value="coconut_milk">Coconut Milk</option>
+            <option value="soy_milk">Soy Milk</option>
+        </select>
+
+        <!-- Sweetener selection -->
+        <label for="sweetener">Choose a sweetener:</label>
+        <input type="radio" id="honey" name="sweetener" value="honey">
+        <label for="honey">Honey</label>
+        <input type="radio" id="maple_syrup" name="sweetener" value="maple_syrup">
+        <label for="maple_syrup">Maple Syrup</label>
+        <input type="radio" id="agave" name="sweetener" value="agave">
+        <label for="agave">Agave</label>
+
+        <!-- Toppings selection -->
+        <label for="toppings">Choose toppings (hold Ctrl/Cmd to select multiple):</label>
+        <select id="toppings" name="toppings" multiple>
+            <option value="granola">Granola</option>
+            <option value="chia_seeds">Chia Seeds</option>
+            <option value="coconut_flakes">Coconut Flakes</option>
+            <option value="chocolate_chips">Chocolate Chips</option>
+            <!-- Add more topping options as desired -->
+        </select>
+
+        <!-- Order button -->
+        <button type="button" id="orderButton" onclick="orderSmoothie()">Order Smoothie</button>
+    </form>
+
+    <!-- Smoothie description output -->
+    <div id="smoothieDescription"></div>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+/* Styling for the smoothie order form */
+/*Arishpreet kaur
+/*200520931
+
+/* Set the default font and center the text in the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Heading style for the form */
+  h1 {
+    color: #e4de31; 
+  }
+  
+  /* Styling for the form container */
+  form {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #a2b6b9; 
+    border-radius: 5px; /* Add rounded corners to the form */
+    background-color: #d0d6bc; 
+  }
+  
+  /* Styling for form labels */
+  label {
+    display: block; /* Display labels as block elements to stack them vertically */
+    margin-top: 10px; /* To add some space between each label and its associated input */
+  }
+  
+  /* Styling for dropdowns and radio buttons */
+  select,
+  input[type="radio"] {
+    margin-top: 5px; /* To add a little space between each dropdown and radio button */
+  }
+  
+  /* Styling for the order button */
+  button {
+    display: block; /* Display the button as a block element to center it */
+    margin-top: 15px; /* To add space between the form elements and the button */
+    padding: 10px 15px; /* To add padding to make the button more clickable */
+    background-color: #c02e2e; 
+    color: #bcbbbb; 
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change the cursor to a hand pointer on hover to indicate interactivity */
+  }
+  
+  /* Styling for the smoothie description */
+  #smoothieDescription {
+    margin-top: 20px; /* Add some space between the form and the smoothie description */
+  }
+  
